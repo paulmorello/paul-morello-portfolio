@@ -1,7 +1,8 @@
-import React from 'react';
+import React from 'react'
 import NavBar from './NavBar'
 import AboutMe from './AboutMe'
 import ProjectsAll from './Projects/ProjectsAll'
+import Footer from './Footer'
 require('./App.css');
 require('./Reset.css');
 
@@ -13,6 +14,7 @@ const App = React.createClass({
         <NavBar />
         <AboutMe />
         <ProjectsAll />
+        <Footer />
       </div>
     )
   }
