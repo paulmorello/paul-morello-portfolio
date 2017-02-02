@@ -1,5 +1,6 @@
 import React from 'react';
 import MainHeader from './MainHeader'
+import Slogan from './Slogan'
 
 const HeroHeader = React.createClass({
 
@@ -7,6 +8,7 @@ const HeroHeader = React.createClass({
     return (
       <div className="hero-header-container">
         <MainHeader />
+        <Slogan />
       </div>
     )
   }

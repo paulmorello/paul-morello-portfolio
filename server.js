@@ -8,6 +8,8 @@ app.use(require('webpack-dev-middleware')(compiler, {}));
 
 app.use(require('webpack-hot-middleware')(compiler));
 
+app.use(express.static('images'));
+
 app.get('*', function(req, res) {
   res.sendFile(__dirname + '/index.html');
 });

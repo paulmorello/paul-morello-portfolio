@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis|Rubik+Mono+One');
+@import url('https://fonts.googleapis.com/css?family=Megrim|Source+Sans+Pro:200');
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+}
 
 .header-container {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: url('http://img3.themebin.com/1920x1080/google_abstract_hd.jpg') no-repeat center center fixed;
     background-size: cover;
 }
@@ -17,7 +22,7 @@ nav h1 {
   padding: .5em .5em .5em 1em;
   vertical-align: middle;
   font-size: 2.5em;
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: 'Megrim', cursive;
   display: inline-block;
   color: white;
 }
@@ -37,7 +42,7 @@ ul li {
 li a {
   color: white;
   text-decoration: none;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Main Heading styling */
@@ -46,18 +51,68 @@ li a {
 }
 
 .main-heading {
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: 'Megrim', cursive;
+  height: 2em;
   font-size: 5em;
-  height: 100%;
   line-height: 5em;
   padding-left: .5em;
+  color: white;
+}
+
+.main-heading-slogan {
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 1em;
+  font-size: 1.5em;
+  line-height: 5em;
+  padding-left: 1.9em;
+  color: white;
 }
 
 /* About content styling */
+.about-container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.about-img-container {
+  width: 30%;
+  margin: 2.5%;
+  float: left;
+}
+
+.about-content-container {
+  width: 60%;
+  margin: 2.5%;
+  padding: 2.5%;
+  float: left;
+}
+
 .about-content-container h2 {
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: 'Megrim', cursive;
+  font-size: 1.5em;
 }
 
 .about-content-container p {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Project section styling */
+.project-container {
+  width: 90%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.project-container div {
+  display: inline-block;
+  margin: 0em 0em 0em 1.6em;
+}
+
+/* Footer section styling */
+.footer-container {
+  width: 100%;
+  height: 20%;
+  text-align: center;
 }
