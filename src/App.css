@@ -1,7 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Rubik+Mono+One');
 
 .header-container {
     width: 100%;
     height: 100vh;
     background: url('http://img3.themebin.com/1920x1080/google_abstract_hd.jpg') no-repeat center center fixed;
     background-size: cover;
+}
+
+/* Main Nav Styling */
+nav {
+  width: 100%;
+}
+
+nav h1 {
+  width: 25%;
+  padding: .5em .5em .5em 1em;
+  vertical-align: middle;
+  font-size: 2.5em;
+  font-family: 'Rubik Mono One', sans-serif;
+  display: inline-block;
+  color: white;
+}
+
+nav ul {
+  width: 70%;
+  display: inline-block;
+  text-align: right;
+}
+
+ul li {
+  margin: 1em;
+  padding: 0em 0em .5em 0em;
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+}
+
+/* Main Heading styling */
+.hero-header-container {
+  height: 100%;
+}
+
+.main-heading {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 5em;
+  height: 100%;
+  line-height: 5em;
+  padding-left: .5em;
+}
+
+/* About content styling */
+.about-content-container h2 {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.about-content-container p {
+  font-family: 'Dosis', sans-serif;
 }
