@@ -10,6 +10,7 @@ const ProjectsAll = React.createClass({
     return (
 
       <div className="project-container">
+        <h2>Recent Projects</h2>
         <ProjectOne />
         <ProjectTwo />
         <ProjectThree />

@@ -9,7 +9,7 @@ const ProjectOne = React.createClass({
       <div className="project-one-container">
         <img
           src={url} />
-        <h2>Red Property</h2>
+        <h3>Red Property</h3>
       </div>
     )
   }

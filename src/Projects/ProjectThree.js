@@ -9,7 +9,7 @@ const ProjectThree = React.createClass({
       <div className="project-three-container">
         <img
           src={url} />
-        <h2>Tic-Tac-Toe</h2>
+        <h3>Tic-Tac-Toe</h3>
       </div>
     )
   }

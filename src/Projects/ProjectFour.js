@@ -9,7 +9,7 @@ const ProjectFour = React.createClass({
       <div className="project-four-container">
         <img
           src={url} />
-        <h2>Web Development Conference</h2>
+        <h3>Web Development Conference</h3>
       </div>
     )
   }

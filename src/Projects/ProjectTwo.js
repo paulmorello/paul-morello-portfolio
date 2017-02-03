@@ -9,7 +9,7 @@ const ProjectTwo = React.createClass({
       <div className="project-two-container">
         <img
           src={url} />
-        <h2>SpeedCoder</h2>
+        <h3>SpeedCoder</h3>
       </div>
     )
   }
