@@ -1,4 +1,5 @@
 import React from 'react';
+var url = require("file-loader!../images/wdi-conf-ux.png")
 
 const ProjectFour = React.createClass({
 
@@ -7,8 +8,8 @@ const ProjectFour = React.createClass({
 
       <div className="project-four-container">
         <img
-          src="http://placehold.it/350x250" />
-        <h1>Web Development Conference</h1>
+          src={url} />
+        <h2>Web Development Conference</h2>
       </div>
     )
   }

@@ -1,4 +1,5 @@
 import React from 'react';
+var url = require("file-loader!../images/tic-tac-toe-ux.png")
 
 const ProjectThree = React.createClass({
 
@@ -7,8 +8,8 @@ const ProjectThree = React.createClass({
 
       <div className="project-three-container">
         <img
-          src="http://placehold.it/350x250" />
-        <h1>Tic-Tac-Toe</h1>
+          src={url} />
+        <h2>Tic-Tac-Toe</h2>
       </div>
     )
   }

@@ -1,4 +1,5 @@
 import React from 'react';
+var url = require("file-loader!../images/red-prop-ux.png")
 
 const ProjectOne = React.createClass({
 
@@ -7,8 +8,8 @@ const ProjectOne = React.createClass({
 
       <div className="project-one-container">
         <img
-          src="http://placehold.it/350x250" />
-        <h1>Red Property</h1>
+          src={url} />
+        <h2>Red Property</h2>
       </div>
     )
   }
