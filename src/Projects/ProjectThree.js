@@ -7,9 +7,9 @@ const ProjectThree = React.createClass({
     return (
 
       <div className="project-three-container">
-        <img
-          src={url} />
-        <h3>Tic-Tac-Toe</h3>
+        <a href="https://paulmorello.github.io/tic-tac-toe/"><img
+          src={url} /></a>
+        <h3><a href="https://paulmorello.github.io/tic-tac-toe/">Tic-Tac-Toe</a></h3>
       </div>
     )
   }
