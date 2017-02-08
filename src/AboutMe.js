@@ -1,5 +1,5 @@
 import React from 'react';
-var url = require("file-loader!./images/paul.png")
+import url from "./images/paul.png"
 
 
 const AboutMe = React.createClass({

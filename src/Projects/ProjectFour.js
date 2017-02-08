@@ -1,5 +1,5 @@
 import React from 'react';
-var url = require("file-loader!../images/wdi-conf-ux.png")
+import url from "../images/wdi-conf-ux.png"
 
 const ProjectFour = React.createClass({
 

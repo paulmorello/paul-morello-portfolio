@@ -1,5 +1,5 @@
 import React from 'react';
-var url = require("file-loader!../images/red-prop-ux.png")
+import url from "../images/red-prop-ux.png"
 
 const ProjectOne = React.createClass({
 

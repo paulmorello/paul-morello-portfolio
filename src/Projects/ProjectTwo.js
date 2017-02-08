@@ -1,5 +1,5 @@
 import React from 'react';
-var url = require("file-loader!../images/speedcoder-ux.png")
+import url from "../images/speedcoder-ux.png"
 
 const ProjectTwo = React.createClass({
 

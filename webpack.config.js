@@ -19,7 +19,8 @@ module.exports = {
       loaders: ['style', 'css', 'sass']
     }, {
       test: /\.(png|jpg)$/,
-      loader: ['file-loader?name=images/[name].[ext]']
+      exclude: /\.dp\.(png|jpg|gif)/,
+      loader: 'file-loader?name=images/[name].[ext]'
     }]
   }
 }
