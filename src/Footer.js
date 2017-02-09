@@ -13,7 +13,7 @@ const Footer = React.createClass({
           </ul>
         </div>
         <div className="footer-content-container">
-          <h1>Contact Me</h1>
+          <h2>Contact Me</h2>
           <p>This fully responsive website was developed and is maintained by me.
           I used React, Node, JavaScript, HTML and CSS to build this single page
           app. This helps to avoid page refreshes and provides a better User
