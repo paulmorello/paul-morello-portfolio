@@ -9,7 +9,6 @@ const ProjectFour = React.createClass({
       <div className="project-four-container">
         <a href="https://peaceful-refuge-50829.herokuapp.com"><img
           src={url} /></a>
-        <h3><a href="https://peaceful-refuge-50829.herokuapp.com">Web Development Conference</a></h3>
       </div>
     )
   }

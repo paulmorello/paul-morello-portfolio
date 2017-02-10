@@ -7,7 +7,7 @@ const AboutMe = React.createClass({
   render: function() {
     return (
 
-      <div className="about-container">
+      <div id="about" className="about-container">
         <div className="about-img-container">
           <img
             src={url} />

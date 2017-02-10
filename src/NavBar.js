@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroHeader from './HeroHeader'
+import ArrowDown from './ArrowDown'
 
 const NavBar = React.createClass({
 
@@ -16,6 +17,7 @@ const NavBar = React.createClass({
           </ul>
         </nav>
         <HeroHeader />
+        <ArrowDown />
       </div>
     )
   }

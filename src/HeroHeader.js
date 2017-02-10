@@ -1,6 +1,7 @@
 import React from 'react';
 import MainHeader from './MainHeader'
 import Slogan from './Slogan'
+import ArrowDown from './ArrowDown'
 
 const HeroHeader = React.createClass({
 
