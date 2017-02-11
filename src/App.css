@@ -141,8 +141,13 @@ nav ul>li>a:hover {
   height: 90%;
 }
 
-.skills-container img {
+.skills-container div {
   width: 25%;
+  display: inline-block;
+}
+
+.skills-container img {
+  width: 100%;
 }
 
 /* Project section styling */
@@ -231,4 +236,10 @@ nav ul>li>a:hover {
   font-size: 1.2em;
   margin: 1.5em 1.1em 1.5em 1.1em;
   padding: 0em 3.5em 0em 2em;
+}
+
+#modal {
+  width: 3em;
+  height: 3em;
+  background-color: blue;
 }

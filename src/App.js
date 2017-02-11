@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
 import AboutMe from './AboutMe'
-import Skills from './Skills'
+import SkillsAll from './SkillsImages/SkillsAll'
 import ProjectsAll from './Projects/ProjectsAll'
 import Footer from './Footer'
 require('./App.css');
@@ -14,7 +14,7 @@ const App = React.createClass({
       <div className="main-container">
         <NavBar />
         <AboutMe />
-        <Skills />
+        <SkillsAll />
         <ProjectsAll />
         <Footer />
       </div>
