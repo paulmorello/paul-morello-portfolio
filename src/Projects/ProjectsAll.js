@@ -9,7 +9,7 @@ const ProjectsAll = React.createClass({
   render: function() {
     return (
 
-      <div className="project-container">
+      <div id="projects" className="project-container">
         <h2>Recent Projects</h2>
         <ProjectOne />
         <ProjectTwo />

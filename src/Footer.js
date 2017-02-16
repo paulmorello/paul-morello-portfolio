@@ -4,12 +4,12 @@ const Footer = React.createClass({
 
   render: function() {
     return (
-      <div className="footer-container">
+      <div id="footer" className="footer-container">
         <div className="footer-links-container">
           <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Hire Me</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#footer">Hire Me</a></li>
           </ul>
         </div>
         <div className="footer-content-container">

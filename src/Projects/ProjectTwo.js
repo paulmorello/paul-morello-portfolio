@@ -9,6 +9,7 @@ const ProjectTwo = React.createClass({
       <div className="project-two-container">
         <a href="https://speedcoder.herokuapp.com/"><img
           src={url} /></a>
+        <a href="https://speedcoder.herokuapp.com/"><h6>Typing test for developers</h6></a>
       </div>
     )
   }

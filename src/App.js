@@ -14,8 +14,8 @@ const App = React.createClass({
       <div className="main-container">
         <NavBar />
         <AboutMe />
-        <SkillsAll />
         <ProjectsAll />
+        <SkillsAll />
         <Footer />
       </div>
     )

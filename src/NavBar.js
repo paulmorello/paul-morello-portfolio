@@ -11,9 +11,9 @@ const NavBar = React.createClass({
         <nav id="nav-fix">
           <h1>PM</h1>
           <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Hire Me</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#footer">Hire Me</a></li>
           </ul>
         </nav>
         <HeroHeader />
