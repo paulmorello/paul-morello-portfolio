@@ -73,6 +73,10 @@ nav ul>li>a:hover {
   color: white;
 }
 
+.hidden {
+  display: none;
+}
+
 .main-heading-slogan {
   font-family: 'Source Sans Pro', sans-serif;
   height: 1em;
@@ -93,7 +97,7 @@ nav ul>li>a:hover {
 }
 
 .header-arrow-container i:hover {
-  transform: scale(1.25);
+  transform: scale(1.35);
 }
 
 /* About content styling */
@@ -108,7 +112,6 @@ nav ul>li>a:hover {
   margin: 2.5% 2.5% 33% 2.5%;
   display: inline-block;
   vertical-align: middle;
-  transition-duration: 0.4s;
 }
 
 .about-img-container img {
@@ -129,6 +132,7 @@ nav ul>li>a:hover {
   color: #56A7F5;
 }
 
+
 .about-content-container p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.7em;
@@ -137,17 +141,41 @@ nav ul>li>a:hover {
 
 /* Skills section styling */
 .skills-container {
-  width: 100%;
+  width: 90%;
   height: 90%;
+  margin: 5% auto;
+}
+
+.skills-container h2 {
+  font-family: 'Megrim', cursive;
+  font-size: 2.5em;
+  margin: 0 0 .5em 2em;
+  color: #56A7F5;
 }
 
 .skills-container div {
-  width: 25%;
+  width: 24%;
+  margin: .5% .5% .5% .5%;
   display: inline-block;
+  transition: all ease .5s;
+  cursor: pointer;
+}
+
+.skills-container div:hover {
+  z-index: 100;
+  transform: scale(1.05);
 }
 
 .skills-container img {
   width: 100%;
+}
+
+.modals {
+  width: 100%;
+  background-color: blue;
+  z-index: 1;
+  position: relative;
+  bottom: 160px;
 }
 
 /* Project section styling */
@@ -192,6 +220,9 @@ nav ul>li>a:hover {
   width: 100%;
   height: 100%;
   text-align: center;
+  background-color: #414F5E;
+  border-top: 3em solid #56A7F5;
+  color: white;
 }
 
 .footer-links-container {
@@ -206,7 +237,7 @@ nav ul>li>a:hover {
 }
 
 .footer-links-container ul>li>a {
-  color: black;
+  color: white;
   font-size: 2.2em;
 }
 

@@ -7,7 +7,7 @@ const ProjectTwo = React.createClass({
     return (
 
       <div className="project-two-container">
-        <a href="https://www.speedcoder.herokuapp.com"><img
+        <a href="https://speedcoder.herokuapp.com/"><img
           src={url} /></a>
       </div>
     )

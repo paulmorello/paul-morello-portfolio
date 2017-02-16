@@ -4,7 +4,7 @@ import Slogan from './Slogan'
 import ArrowDown from './ArrowDown'
 
 const HeroHeader = React.createClass({
-  
+
   render: function() {
     return (
       <div className="hero-header-container">

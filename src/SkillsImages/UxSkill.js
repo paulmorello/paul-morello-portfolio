@@ -13,8 +13,15 @@ const UxSkill = React.createClass({
   onImgClick: function(event) {
     // trigger for skills pictures
     $('#ux').click(function(event) {
+      
+      $('#ux img').css('z-index', '-1')
+      $('<div id="modal-ux" class="modals">').appendTo('#ux')
+      $('<h2 id="first">').appendTo('#modal-ux')
+      $('#first').text('User Experience Design')
 
-      console.log('User Experience Design')
+      $('#modal-ux').click(function(event) {
+        console.log('hello')
+      });
 
     });
   },

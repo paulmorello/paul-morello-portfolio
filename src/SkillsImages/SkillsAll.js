@@ -15,6 +15,7 @@ const SkillsAll = React.createClass({
     return (
 
       <div id="skills" className="skills-container">
+        <h2>Skills</h2>
         <UxSkill
           onClick={ this.props.onImgClick } />
         <LiveDataSkill

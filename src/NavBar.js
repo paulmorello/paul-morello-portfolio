@@ -8,7 +8,7 @@ const NavBar = React.createClass({
     return (
 
       <div className="header-container">
-        <nav>
+        <nav id="nav-fix">
           <h1>PM</h1>
           <ul>
             <li><a href="#">About Me</a></li>
