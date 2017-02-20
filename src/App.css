@@ -129,9 +129,8 @@ nav ul>li>a:hover {
   font-family: 'Megrim', cursive;
   font-size: 2.5em;
   margin-bottom: .5em;
-  color: white;
-  background-color: #414F5E;
-  border-radius: 2px;
+  color: #414F5E;
+  border-bottom: 3px solid #414F5E;
   padding-left: 20px;
 }
 
@@ -153,9 +152,8 @@ nav ul>li>a:hover {
   font-family: 'Megrim', cursive;
   font-size: 2.5em;
   margin: 1.2em auto;
-  color: white;
-  background-color: #414F5E;
-  border-radius: 2px;
+  color: #414F5E;
+  border-bottom: 3px solid #414F5E;
   padding-left: 10px;
   width: 90%;
   padding-left: 20px;
@@ -163,28 +161,39 @@ nav ul>li>a:hover {
 
 .skills-container div {
   width: 24%;
-  margin: .5% .5% .5% .5%;
+  vertical-align: middle;
+  margin: .5% .5% 20% .5%;
   display: inline-block;
-  transition: all ease .5s;
   cursor: pointer;
 }
 
-.skills-container div:hover {
-  z-index: 100;
-  transform: scale(1.05);
+.skills-container div>div {
+  width: 90%;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.skills-container img {
-  width: 100%;
-  background-color: rgba(68, 83, 99, 0.2);
+.skills-container i {
+  color: #414F5E;
+  transition: all ease 1s;
 }
 
-.modals {
-  width: 100%;
-  background-color: blue;
-  z-index: 1;
-  position: relative;
-  bottom: 160px;
+.skills-container i:hover {
+  color: #56A7F5;
+}
+
+.skills-container h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #414F5E;
+  font-size: 1.3em;
+  margin: 1em 1em;
+  padding-bottom: 1em;
+  border-bottom: 3px solid #56A7F5;
+}
+
+.skills-container p {
+  margin: 20% 10% 20% 10%;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Project section styling */
@@ -212,9 +221,8 @@ nav ul>li>a:hover {
   margin: 0 auto;
   font-family: 'Megrim', cursive;
   font-size: 2.5em;
-  color: white;
-  background-color: #414F5E;
-  border-radius: 2px;
+  color: #414F5E;
+  border-bottom: 3px solid #414F5E;
   padding-left: 10px;
   width: 100%;
   padding-left: 20px;

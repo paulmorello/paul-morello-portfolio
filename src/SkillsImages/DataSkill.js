@@ -4,32 +4,15 @@ import url from "../images/person.jpg"
 
 const DataSkill = React.createClass({
 
-  getInitialState: function() {
-    return {
-      content: '',
-    }
-  },
-
-  onImgClick: function(event) {
-    // trigger for skills pictures
-    $('#data').click(function(event) {
-
-      console.log('SQL, data, ORM, PostgreSQL, MongoDB')
-
-    });
-  },
-
-  handleClick: function(event) {
-    this.setState({ content: event.target.value });
-  },
-
   render: function() {
     return (
 
       <div id="data" className="skills-data-container">
-        <img
-          onClick={ this.onImgClick }
-          src={url} />
+        <div className="data-skills-icon">
+          <i className="fa fa-line-chart fa-5x"></i>
+          <h3>Data Analysis</h3>
+          <p>More complicated projects require accessing real time data and accessing information. I have skills with AJAX, APIs and web scraping using Nokogiri, which allows me to gather information from across the web to create information rich websites.</p>
+        </div>
       </div>
     )
   }

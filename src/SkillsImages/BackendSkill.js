@@ -4,32 +4,15 @@ import url from "../images/business.jpg"
 
 const BackendSkill = React.createClass({
 
-  getInitialState: function() {
-    return {
-      content: '',
-    }
-  },
-
-  onImgClick: function(event) {
-    // trigger for skills pictures
-    $('#backend').click(function(event) {
-
-      console.log('Ruby on rails, Node.js and Express.js')
-
-    });
-  },
-
-  handleClick: function(event) {
-    this.setState({ content: event.target.value });
-  },
-
   render: function() {
     return (
 
       <div id="backend" className="skills-backend-container">
-        <img
-          onClick={ this.onImgClick }
-          src={url} />
+        <div className="backend-skills-icon">
+          <i className="fa fa-database fa-5x"></i>
+          <h3>BackEnd Development</h3>
+          <p>To accompany my front end skills, I am also fully equipped with back end knowledge. I am skilled with Ruby on Rails, PostgreSQL, SQL and task management tools such as Git and Webpack. Allowing me to manage the development of a project from end-to-end.</p>
+        </div>
       </div>
     )
   }
