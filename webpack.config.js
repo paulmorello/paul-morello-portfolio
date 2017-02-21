@@ -1,3 +1,4 @@
+var webpack = require('webpack');
 
 module.exports = {
   entry: ['webpack-hot-middleware/client','./src/index.js'],
@@ -11,11 +12,11 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.js$/,
-      loaders: ['react-hot','babel'],
+      loaders: ['react-hot-loader','babel-loader'],
       include: __dirname + '/src'
     }, {
       test: /\.s?css$/,
-      loaders: ['style', 'css', 'sass']
+      loaders: ['style-loader', 'css-loader', 'sass-loader']
     }, {
       test: /\.(png|jpg)$/,
       exclude: /\.dp\.(png|jpg|gif)/,
