@@ -1,7 +1,11 @@
 {
   "name": "paul-morello-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "engines": {
+    "node": "6.4.0",
+    "npm": "4.2.0"
+  },
+  "description": "Paul Morello Portfolio Project",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
