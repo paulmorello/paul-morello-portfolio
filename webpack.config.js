@@ -12,11 +12,11 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.js$/,
-      loaders: ['react-hot-loader','babel-loader'],
+      loaders: ['react-hot','babel'],
       include: __dirname + '/src'
     }, {
       test: /\.s?css$/,
-      loaders: ['style-loader', 'css-loader', 'sass-loader']
+      loaders: ['style', 'css', 'sass']
     }, {
       test: /\.(png|jpg)$/,
       exclude: /\.dp\.(png|jpg|gif)/,
