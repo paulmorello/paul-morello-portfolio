@@ -1,8 +1,9 @@
-var express = require('express');
-var app = express();
-var config = require('./webpack.config');
-var webpack = require('webpack');
-var compiler = webpack(config);
+const express = require('express');
+const app = express();
+const config = require('./webpack.config');
+const webpack = require('webpack');
+const compiler = webpack(config);
+var port = process.env.PORT || 3030
 
 app.use(require('webpack-dev-middleware')(compiler, {}));
 
@@ -12,9 +13,9 @@ app.get('*', function(req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
-app.listen(3000, function(err) {
+app.listen(port, function(err) {
   if (err) {
     return console.error(err);
   }
-  console.log('listening at http://localhost:3000');
+  console.log('listening at http://localhost:3030');
 })
