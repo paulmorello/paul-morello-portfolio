@@ -1,7 +1,7 @@
-var express = require('express');
+var express = require('./express');
 var app = express();
 var config = require('./webpack.config');
-var webpack = require('webpack');
+var webpack = require('./webpack');
 var compiler = webpack(config);
 
 app.use(require('webpack-dev-middleware')(compiler, {}));
