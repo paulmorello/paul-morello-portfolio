@@ -1,4 +1,4 @@
-var webpack = require('webpack');
+var webpack = require('./src/webpack');
 
 module.exports = {
   entry: ['webpack-hot-middleware/client','./src/index.js'],
