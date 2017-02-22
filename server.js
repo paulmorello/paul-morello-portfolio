@@ -1,14 +1,14 @@
-var express = require('./express');
+var express = require('express');
 var app = express();
 var config = require('./webpack.config');
-var webpack = require('./webpack');
+var webpack = require('webpack');
 var compiler = webpack(config);
 
 app.use(require('webpack-dev-middleware')(compiler, {}));
 
 app.use(require('webpack-hot-middleware')(compiler));
 
-app.get('*', function(req, res) {
+app.get('/', function(req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
