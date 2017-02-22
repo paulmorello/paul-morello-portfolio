@@ -4,8 +4,6 @@ import AboutMe from './AboutMe'
 import SkillsAll from './SkillsImages/SkillsAll'
 import ProjectsAll from './Projects/ProjectsAll'
 import Footer from './Footer'
-require('./App.css')
-require('./Reset.css')
 
 const App = React.createClass({
 
