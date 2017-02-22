@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paulmorello/paul-morello-portfolio.git"
+    "url": "paulmorello/paul-morello-portfolio.git"
   },
   "keywords": [],
   "author": "",
@@ -41,6 +41,7 @@
     "webpack-hot-middleware": "^2.17.0"
   },
   "dependencies": {
+    "express": "4.14.1",
     "jquery": "^3.1.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
