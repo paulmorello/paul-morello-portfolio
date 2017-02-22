@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "paulmorello/paul-morello-portfolio.git"
+    "url": "https://github.com/paulmorello/paul-morello-portfolio.git"
   },
   "keywords": [],
   "author": "",
@@ -29,7 +29,6 @@
     "babel-preset-react": "^6.22.0",
     "babel-preset-stage-0": "^6.22.0",
     "css-loader": "^0.26.1",
-    "express": "^4.14.1",
     "file-loader": "^0.10.0",
     "node-sass": "^4.3.0",
     "react-hot-loader": "^1.3.1",
@@ -41,7 +40,7 @@
     "webpack-hot-middleware": "^2.17.0"
   },
   "dependencies": {
-    "express": "4.14.1",
+    "express": "^4.14.1",
     "jquery": "^3.1.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
