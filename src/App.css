@@ -73,10 +73,6 @@ nav ul>li>a:hover {
   color: white;
 }
 
-.hidden {
-  display: none;
-}
-
 .main-heading-slogan {
   font-family: 'Source Sans Pro', sans-serif;
   height: 1em;
@@ -320,10 +316,4 @@ nav ul>li>a:hover {
   font-size: 1.2em;
   margin: 1.5em 1.1em 1.5em 1.1em;
   padding: 0em 3.5em 0em 2em;
-}
-
-#modal {
-  width: 3em;
-  height: 3em;
-  background-color: blue;
 }

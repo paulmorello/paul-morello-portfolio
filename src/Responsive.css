@@ -1,0 +1,373 @@
+
+/* media queries */
+@media screen and (max-width: 1000px) {
+
+  /* about section */
+  .about-container {
+    width: 100%;
+  }
+
+  .about-img-container {
+    width: 25%;
+    display: block;
+    margin: 2em auto;
+  }
+
+  .about-img-container img {
+    border-radius: 30px;
+    margin-bottom: 1.5em;
+  }
+
+  .about-content-container {
+    width: 80%;
+    margin: 1em;
+    padding: .5em;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .about-content-container h2 {
+    font-size: 2em;
+    margin-bottom: .5em;
+    border-bottom: 2px solid #414F5E;
+    padding-left: 20px;
+  }
+
+  .about-content-container p {
+    font-size: 1.2em;
+    margin: .5em 0 .5em 0;
+  }
+
+  /* Skills section styling */
+  .skills-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .skills-container div {
+    width: 45%;
+    height: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .skills-container div>div {
+    width: 80%;
+    display: block;
+    padding-left: 1.2em;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .skills-container h2 {
+    font-size: 2em;
+    margin: .7em auto;
+    border-bottom: 2px solid #414F5E;
+  }
+
+  .skills-container h3 {
+    font-size: 1em;
+    margin: 1em 1em;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #56A7F5;
+  }
+
+  .skills-container p {
+    margin: .2% .5%;
+    padding: 2% 3%;
+    font-size: .8em;
+    text-align: justify;
+  }
+
+  /* Project section */
+  .project-container {
+    width: 100%;
+  }
+
+  .project-container div {
+    width: 42%;
+  }
+
+  .project-container h2 {
+    margin: 0 1em 1.5em 1em;
+    font-size: 2em;
+    border-bottom: 2px solid #414F5E;
+    padding: 0px 20px 0px 10px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  /* Project section */
+  .project-container {
+    width: 100%;
+  }
+
+  .project-container div {
+    width: 48%;
+  }
+
+  .project-container h2 {
+    margin: 0 1em 1.5em 1em;
+    font-size: 2em;
+    border-bottom: 2px solid #414F5E;
+    padding: 0px 20px 0px 10px;
+    width: 90%;
+  }
+
+  /* skills section */
+
+  .skills-container p {
+    font-size: .7em;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .skills-container h2 {
+    margin: 0 1em 1.2em 1em;
+  }
+
+  .skills-container div {
+    height: 45%;
+  }
+
+  /* Footer section styling */
+  .footer-links-container {
+    width: 25%;
+  }
+
+  .footer-links-container ul>li {
+    padding-bottom: 2em;
+  }
+
+  .footer-links-container ul>li>a {
+    font-size: 1.7em;
+  }
+
+  .footer-links-container ul>li>a:hover {
+    border-bottom: 3px solid #56A7F5;
+  }
+
+  .footer-content-container {
+    width: 73%;
+  }
+
+  .footer-content-container h2 {
+    font-size: 2em;
+  }
+
+  .footer-content-container h4 {
+    font-size: 1.2em;
+  }
+
+  .footer-content-container p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 610px) {
+
+  /* Main Nav Styling */
+  nav h1 {
+    width: 20%;
+    font-size: 2em;
+  }
+
+  nav ul {
+    width: 80%;
+  }
+
+  ul li {
+    margin: .7em;
+  }
+
+  li a {
+    font-size: 1em;
+  }
+
+  /* Main Heading styling */
+  .hero-header-container {
+    height: 60%;
+  }
+
+  .main-heading {
+    height: 2em;
+    font-size: 4em;
+    line-height: 5em;
+    text-align: center;
+  }
+
+  .main-heading-slogan {
+    height: .7em;
+    font-size: 1.2em;
+    line-height: 8em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .header-arrow-container {
+    padding-top: 4em;
+  }
+
+  /* about section */
+  .about-img-container {
+    width: 40%;
+  }
+
+  .about-content-container h2 {
+    margin-bottom: 1em;
+  }
+
+
+  /* Project section */
+  .project-container {
+    height: 180%;
+  }
+
+  .project-container div {
+    width: 80%;
+    display: block;
+    margin: .5em auto;
+  }
+
+  /* skills section */
+  .skills-container {
+    height: 140%;
+  }
+
+  .skills-container p {
+    visibility: hidden;
+  }
+
+  .skills-container h3 {
+    margin: 0 1em 1.2em 1em;
+    font-size: 1.2em;
+  }
+
+  .skills-container div {
+    display: block;
+    margin-top: .8em;
+    height: 23%;
+    width: 100%;
+  }
+
+  /* Footer section styling */
+
+  .footer-container {
+    text-align: center;
+  }
+
+  .footer-links-container {
+    display: block;
+    text-align: center;
+    width: 100%;
+    border-right: none;
+  }
+
+  .footer-links-container ul>li {
+    padding-bottom: 0em;
+    margin: 1em 1em;
+    padding-top: 1em;
+    display: inline-block;
+  }
+
+  .footer-links-container ul>li>a {
+    font-size: 1.7em;
+  }
+
+  .footer-links-container ul>li>a:hover {
+    border-bottom: 3px solid #56A7F5;
+  }
+
+  .footer-content-container {
+    width: 100%;
+  }
+
+  .footer-content-container h2 {
+    font-size: 3em;
+    padding: .5em 0em 0em 1em;
+  }
+
+  .footer-content-container h4 {
+    font-size: 1.5em;
+    padding: 0em 0em 1em 2em;
+  }
+
+  .footer-content-container p {
+    font-size: 1.2em;
+    text-align: center;
+    padding-left: 3em;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+  /* Main Heading styling */
+  .hero-header-container {
+    height: 60%;
+  }
+
+  .main-heading {
+    height: 2em;
+    font-size: 2.7em;
+    line-height: 7em;
+  }
+
+  .main-heading-slogan {
+    font-size: 1em;
+    padding-left: 1.1em;
+    line-height: 9em;
+  }
+
+  /* about section */
+  .about-img-container {
+    width: 45%;
+  }
+
+  .about-content-container h2 {
+    margin-bottom: 1em;
+  }
+
+  .about-content-container p {
+    font-size: 1em;
+  }
+
+  /* Project section */
+  .project-container {
+    height: 150%;
+  }
+
+  .project-container div {
+    width: 80%;
+    display: block;
+    margin: .5em auto;
+  }
+
+  /* Footer section styling */
+
+  .footer-links-container ul>li {
+    margin: .5em 1em;
+    padding-top: .5em;
+  }
+
+  .footer-links-container ul>li>a {
+    font-size: 1.2em;
+  }
+
+  .footer-content-container h2 {
+    font-size: 2em;
+  }
+
+  .footer-content-container h4 {
+    font-size: 1.2em;
+    padding: 0em 0em 1em .8em;
+  }
+
+  .footer-content-container p {
+    font-size: 1em;
+    text-align: center;
+    padding-left: 3em;
+  }
+}
