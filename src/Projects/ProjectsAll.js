@@ -11,7 +11,6 @@ const ProjectsAll = React.createClass({
 
       <div id="projects" className="project-container">
         <h2>Recent Projects</h2>
-        <ProjectOne />
         <ProjectTwo />
         <ProjectThree />
         <ProjectFour />
