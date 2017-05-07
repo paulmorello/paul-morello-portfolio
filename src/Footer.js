@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Footer = React.createClass({
+class Footer extends Component {
 
-  render: function() {
+  render() {
     return (
       <div id="footer" className="footer-container">
         <div className="footer-links-container">
@@ -25,6 +25,6 @@ const Footer = React.createClass({
       </div>
     )
   }
-})
+}
 
 module.exports = Footer;

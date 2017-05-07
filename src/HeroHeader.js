@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import MainHeader from './MainHeader'
 import Slogan from './Slogan'
 import ArrowDown from './ArrowDown'
 
-const HeroHeader = React.createClass({
+class HeroHeader extends Component {
 
-  render: function() {
+  render() {
     return (
       <div className="hero-header-container">
         <MainHeader />
@@ -13,6 +13,6 @@ const HeroHeader = React.createClass({
       </div>
     )
   }
-})
+}
 
 module.exports = HeroHeader;

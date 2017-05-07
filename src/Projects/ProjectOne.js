@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import url from "../images/red-prop-ux.png"
 
-const ProjectOne = React.createClass({
+class ProjectOne extends Component {
 
-  render: function() {
+  render() {
     return (
 
       <div className="project-one-container">
@@ -13,6 +13,6 @@ const ProjectOne = React.createClass({
       </div>
     )
   }
-})
+}
 
 module.exports = ProjectOne;

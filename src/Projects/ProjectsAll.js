@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ProjectOne from './ProjectOne'
 import ProjectTwo from './ProjectTwo'
 import ProjectThree from './ProjectThree'
 import ProjectFour from './ProjectFour'
 
-const ProjectsAll = React.createClass({
+class ProjectsAll extends Component {
 
-  render: function() {
+  render() {
     return (
 
       <div id="projects" className="project-container">
@@ -17,6 +17,6 @@ const ProjectsAll = React.createClass({
       </div>
     )
   }
-})
+}
 
 module.exports = ProjectsAll;

@@ -1,12 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import HeroHeader from './HeroHeader'
 import ArrowDown from './ArrowDown'
 
-const NavBar = React.createClass({
+class NavBar extends Component {
 
-  render: function() {
+  render() {
     return (
-
       <div className="header-container">
         <nav id="nav-fix">
           <h1>PM</h1>
@@ -21,6 +20,6 @@ const NavBar = React.createClass({
       </div>
     )
   }
-})
+}
 
 module.exports = NavBar;

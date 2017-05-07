@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import url from "./images/paul.png"
 
 
-const AboutMe = React.createClass({
+class AboutMe extends Component {
 
-  render: function() {
+  render() {
     return (
 
       <div id="about" className="about-container">
@@ -24,6 +24,6 @@ const AboutMe = React.createClass({
       </div>
     )
   }
-})
+}
 
 module.exports = AboutMe;

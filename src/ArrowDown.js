@@ -1,14 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const ArrowDown = React.createClass({
+class ArrowDown extends Component {
 
-  render: function() {
+  render() {
     return (
       <div className="header-arrow-container">
         <a href="#about"><i className="fa fa-angle-double-down fa-4x" aria-hidden="true"></i></a>
       </div>
     )
   }
-})
+}
 
 module.exports = ArrowDown;

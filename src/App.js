@@ -1,13 +1,13 @@
-import React from 'react'
+import React, { Component } from 'react'
 import NavBar from './NavBar'
 import AboutMe from './AboutMe'
 import SkillsAll from './SkillsImages/SkillsAll'
 import ProjectsAll from './Projects/ProjectsAll'
 import Footer from './Footer'
 
-const App = React.createClass({
+class App extends Component {
 
-  render: function() {
+  render() {
     return (
       <div className="main-container">
         <NavBar />
@@ -18,6 +18,6 @@ const App = React.createClass({
       </div>
     )
   }
-})
+}
 
 module.exports = App;

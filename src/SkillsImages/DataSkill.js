@@ -1,10 +1,10 @@
 const $ = require('jquery')
-import React from 'react';
+import React, { Component } from 'react';
 import url from "../images/person.jpg"
 
-const DataSkill = React.createClass({
+class DataSkill extends Component {
 
-  render: function() {
+  render() {
     return (
 
       <div id="data" className="skills-data-container">
@@ -16,6 +16,6 @@ const DataSkill = React.createClass({
       </div>
     )
   }
-})
+}
 
 module.exports = DataSkill;

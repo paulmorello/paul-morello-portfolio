@@ -1,14 +1,14 @@
 const $ = require('jquery')
-import React from 'react';
+import React, { Component } from 'react';
 import UxSkill from './UxSkill'
 import BackendSkill from './BackendSkill'
 import DataSkill from './DataSkill'
 import DesignSkill from './DesignSkill'
 
 
-const SkillsAll = React.createClass({
+class SkillsAll extends Component {
 
-  render: function() {
+  render() {
     return (
 
       <div id="skills" className="skills-container">
@@ -24,6 +24,6 @@ const SkillsAll = React.createClass({
       </div>
     )
   }
-})
+}
 
 module.exports = SkillsAll;

@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import url from "../images/wdi-conf-ux.png"
 
-const ProjectFour = React.createClass({
+class ProjectFour extends Component {
 
-  render: function() {
+  render() {
     return (
 
       <div className="project-four-container">
@@ -13,6 +13,6 @@ const ProjectFour = React.createClass({
       </div>
     )
   }
-})
+}
 
 module.exports = ProjectFour;

@@ -1,12 +1,11 @@
 const $ = require('jquery')
-import React from 'react';
+import React, { Component } from 'react';
 import url from "../images/business.jpg"
 
-const BackendSkill = React.createClass({
+class BackendSkill extends Component {
 
-  render: function() {
+  render() {
     return (
-
       <div id="backend" className="skills-backend-container">
         <div className="backend-skills-icon">
           <i className="fa fa-database fa-5x"></i>
@@ -16,6 +15,6 @@ const BackendSkill = React.createClass({
       </div>
     )
   }
-})
+}
 
 module.exports = BackendSkill;

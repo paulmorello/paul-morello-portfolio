@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import url from "../images/tic-tac-toe-ux.png"
 
-const ProjectThree = React.createClass({
+class ProjectThree extends Component {
 
-  render: function() {
+  render() {
     return (
 
       <div className="project-three-container">
@@ -13,6 +13,6 @@ const ProjectThree = React.createClass({
       </div>
     )
   }
-})
+}
 
 module.exports = ProjectThree;
