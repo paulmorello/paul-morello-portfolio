@@ -10,7 +10,7 @@ class NavBar extends Component {
       <div className="header-container">
         <nav id="nav-fix">
           <h1>PM</h1>
-          <NavLinks about="About Me" projects="Projects" hireme="Hire Me" />
+          <NavLinks />
         </nav>
         <HeroHeader />
         <ArrowDown />

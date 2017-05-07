@@ -8,6 +8,8 @@ class NavLinks extends Component {
     hireme: React.PropTypes.string.isRequired
   }
 
+  componentWillReceiveProps(props) {}
+
   render() {
     return (
       <ul>
@@ -17,6 +19,12 @@ class NavLinks extends Component {
       </ul>
     )
   }
+}
+
+NavLinks.defaultProps = {
+  about: "About Me",
+  projects: "Projects",
+  hireme: "Hire Me"
 }
 
 module.exports = NavLinks;

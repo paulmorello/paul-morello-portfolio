@@ -7,7 +7,7 @@ class Footer extends Component {
     return (
       <div id="footer" className="footer-container">
         <div className="footer-links-container">
-          <NavLinks about="About Me" projects="Projects" hireme="Hire Me" />
+          <NavLinks />
         </div>
         <div className="footer-content-container">
           <h2>Contact Me</h2>
