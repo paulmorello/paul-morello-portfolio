@@ -9,7 +9,7 @@ class HeroHeader extends Component {
     return (
       <div className="hero-header-container">
         <MainHeader />
-        <Slogan skills="Ruby on Rails. JavaScript. React. Node. HTML. CSS."/>
+        <Slogan />
       </div>
     )
   }

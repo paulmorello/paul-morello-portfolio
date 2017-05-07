@@ -3,12 +3,10 @@ import React, { Component } from 'react';
 
 class NavLinks extends Component {
   propTypes: {
-    about: React.PropTypes.string.isRequired,
-    projects: React.PropTypes.string.isRequired,
-    hireme: React.PropTypes.string.isRequired
+    about: React.PropTypes.string,
+    projects: React.PropTypes.string,
+    hireme: React.PropTypes.string
   }
-
-  componentWillReceiveProps(props) {}
 
   render() {
     return (
