@@ -13,14 +13,10 @@ class SkillsAll extends Component {
 
       <div id="skills" className="skills-container">
         <h2>Skills</h2>
-        <UxSkill
-          onClick={ this.props.onImgClick } />
-        <DataSkill
-          onClick={ this.props.onImgClick } />
-        <BackendSkill
-          onClick={ this.props.onImgClick } />
-        <DesignSkill
-          onClick={ this.props.onImgClick } />
+        <UxSkill />
+        <DataSkill />
+        <BackendSkill />
+        <DesignSkill />
       </div>
     )
   }
