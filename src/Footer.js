@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NavLinks from './NavLinks'
 
 class Footer extends Component {
 
@@ -6,11 +7,7 @@ class Footer extends Component {
     return (
       <div id="footer" className="footer-container">
         <div className="footer-links-container">
-          <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Portfolio</a></li>
-            <li><a href="#footer">Hire Me</a></li>
-          </ul>
+          <NavLinks about="About Me" projects="Projects" hireme="Hire Me" />
         </div>
         <div className="footer-content-container">
           <h2>Contact Me</h2>
