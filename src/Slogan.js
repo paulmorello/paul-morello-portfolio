@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 
 class Slogan extends Component {
+  propTypes: {
+    skills: React.PropTypes.string.isRequired
+  }
 
   render() {
     return (
-      <h5 className="main-heading-slogan">Ruby on Rails. JavaScript. React. HTML. CSS.</h5>
+      <h5 className="main-heading-slogan">{ this.props.skills }</h5>
     )
   }
 }
