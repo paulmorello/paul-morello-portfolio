@@ -3,10 +3,22 @@ import url from "../images/red-prop-ux.png"
 
 class ProjectOne extends Component {
 
+  trackClick() {
+    console.log('This click works');
+
+    // Tracking clicks on Red Property Link
+    woopra.track('red_property_view', {
+      url: url,
+      title: document.title,
+      project: 'red property'
+    })
+
+  }
+
   render() {
     return (
 
-      <div className="project-one-container">
+      <div className="project-one-container" onClick={ this.trackClick }>
         <a href="https://redproperty.herokuapp.com/"><img
           src={url} /></a>
         <a href="https://redproperty.herokuapp.com/"><h6>Australian Real Estate aggregator</h6></a>
