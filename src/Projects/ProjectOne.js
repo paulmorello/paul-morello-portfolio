@@ -6,7 +6,7 @@ class ProjectOne extends Component {
   trackClick() {
 
     // Tracking clicks on Red Property Link
-    woopra.track('red_property_view', {
+    woopra.track('project_view', {
       url: window.location.pathname,
       title: document.title,
       project: 'Red Property'

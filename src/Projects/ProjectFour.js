@@ -7,7 +7,7 @@ class ProjectFour extends Component {
     console.log('This click works');
 
     // Tracking clicks on WDI Conference Link
-    woopra.track('wdi_conf_view', {
+    woopra.track('project_view', {
       url: window.location.pathname,
       title: document.title,
       project: 'WDI Conference'

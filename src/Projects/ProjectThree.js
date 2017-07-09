@@ -7,7 +7,7 @@ class ProjectThree extends Component {
     console.log('This click works');
 
     // Tracking clicks on Tic Tac Toe game
-    woopra.track('tictactoe_view', {
+    woopra.track('project_view', {
       url: window.location.pathname,
       title: document.title,
       project: 'Tic Tac Toe'
