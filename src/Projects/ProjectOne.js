@@ -4,13 +4,12 @@ import url from "../images/red-prop-ux.png"
 class ProjectOne extends Component {
 
   trackClick() {
-    console.log('This click works');
 
     // Tracking clicks on Red Property Link
     woopra.track('red_property_view', {
-      url: url,
+      url: window.location.pathname,
       title: document.title,
-      project: 'red property'
+      project: 'Red Property'
     })
 
   }

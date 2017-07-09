@@ -8,9 +8,9 @@ class ProjectThree extends Component {
 
     // Tracking clicks on Tic Tac Toe game
     woopra.track('tictactoe_view', {
-      url: url,
+      url: window.location.pathname,
       title: document.title,
-      project: 'tic tac toe'
+      project: 'Tic Tac Toe'
     })
 
   }

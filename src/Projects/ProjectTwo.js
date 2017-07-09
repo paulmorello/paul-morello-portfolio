@@ -8,9 +8,9 @@ class ProjectTwo extends Component{
 
     // Tracking clicks on speedcoder Views
     woopra.track('speedcoder_view', {
-      url: url,
+      url: window.location.pathname,
       title: document.title,
-      project: 'speedcoder'
+      project: 'SpeedCoder'
     })
 
   }
