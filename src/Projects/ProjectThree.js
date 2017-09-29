@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import url from "../images/basketball.jpg"
+import url from "../images/proscout.png"
 
 class ProjectThree extends Component {
 
@@ -18,7 +18,7 @@ class ProjectThree extends Component {
     return (
 
       <div className="project-three-container" onClick={ this.trackClick } >
-        <a href="https://www.proscoutapp.com"><img
+        <a href="http://www.proscoutapp.com"><img
           src={url} /></a>
       </div>
     )

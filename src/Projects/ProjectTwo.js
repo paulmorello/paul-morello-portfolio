@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import url from "../images/business.jpg"
+import url from "../images/speedcoder.png"
 
 class ProjectTwo extends Component {
 

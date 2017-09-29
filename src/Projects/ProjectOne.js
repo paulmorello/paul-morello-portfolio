@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import url from "../images/coffee.jpg"
+import url from "../images/coffee.png"
 
 class ProjectOne extends Component {
 
@@ -11,8 +11,8 @@ class ProjectOne extends Component {
       title: document.title,
       project: 'Charley St'
     })
-
   }
+
 
   render() {
     return (

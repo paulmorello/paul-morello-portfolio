@@ -13,7 +13,7 @@ class Slogan extends Component {
 }
 
 Slogan.defaultProps = {
-  skills: "Ruby on Rails. JavaScript. React. Node. HTML. CSS."
+  skills: "Product Manager. Data Analytics. Ruby. JavaScript. React."
 }
 
 module.exports = Slogan;
