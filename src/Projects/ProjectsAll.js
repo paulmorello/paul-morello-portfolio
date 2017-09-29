@@ -14,6 +14,7 @@ class ProjectsAll extends Component {
         <ProjectTwo />
         <ProjectThree />
         <ProjectFour />
+        <ProjectOne />
       </div>
     )
   }

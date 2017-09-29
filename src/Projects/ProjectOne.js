@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import url from "../images/red-prop-ux.png"
+import url from "../images/coffee.jpg"
 
 class ProjectOne extends Component {
 
@@ -9,7 +9,7 @@ class ProjectOne extends Component {
     woopra.track('project_view', {
       url: window.location.pathname,
       title: document.title,
-      project: 'Red Property'
+      project: 'Charley St'
     })
 
   }
@@ -18,9 +18,8 @@ class ProjectOne extends Component {
     return (
 
       <div className="project-one-container" onClick={ this.trackClick }>
-        <a href="https://redproperty.herokuapp.com/"><img
+        <a href="https://www.charleyst.com"><img
           src={url} /></a>
-        <a href="https://redproperty.herokuapp.com/"><h6>Australian Real Estate aggregator</h6></a>
       </div>
     )
   }
