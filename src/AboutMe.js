@@ -15,11 +15,12 @@ class AboutMe extends Component {
 
         <div className="about-content-container">
           <h2>About Me</h2>
-          <p>I am a full stack web developer with knowledge of both front end and back end technologies.</p>
+          <p>Passionate about building products, I'm continually developing new ideas and embracing new technologies.</p>
 
-          <p>Coming from a background in Finance, I have been lucky enough to work with fast paced and growing startups such as General Assembly.</p>
+          <p>I'm experienced integrating complex analytical solutions to assist in the launch, iteration and overall strategy of new products.</p>
 
-          <p>My work aims to provide a quality User Experience (UX) across all digital devices to improve sales and drive profitability.</p>
+          <p>I use my analytical skillset to priortize feature implementation, and to automate workflows based on behavioural and demographic insights.</p>
+
         </div>
       </div>
     )
