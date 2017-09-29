@@ -18,7 +18,7 @@ class ProjectOne extends Component {
     return (
 
       <div className="project-one-container" onClick={ this.trackClick }>
-        <a href="https://www.charleyst.com"><img
+        <a href="http://www.charleyst.com"><img
           src={url} /></a>
       </div>
     )
