@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import NavBar from './NavBar'
 import AboutMe from './AboutMe'
-import SkillsAll from './SkillsImages/SkillsAll'
+import Skills from './Skills'
 import ProjectsAll from './Projects/ProjectsAll'
 import Footer from './Footer'
 
@@ -13,7 +13,7 @@ class App extends Component {
         <NavBar />
         <AboutMe />
         <ProjectsAll />
-        <SkillsAll />
+        <Skills />
         <Footer />
       </div>
     )
