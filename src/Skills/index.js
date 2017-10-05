@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
+import { PieChart } from 'react-chartkick';
 
 class Skills extends Component {
 
   render() {
     return (
 
-      <div id="chart-1" style="height: 300px">
+      <div className="skills-container">
         <h2>Skills</h2>
+        <PieChart data={[["Blueberry", 44], ["Strawberry", 23]]} />
       </div>
     )
   }
