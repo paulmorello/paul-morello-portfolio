@@ -141,7 +141,6 @@ nav ul>li>a:hover {
 /* Skills section styling */
 .skills-container {
   width: 90%;
-  height: 90%;
   margin: 5% auto;
 }
 
@@ -156,42 +155,10 @@ nav ul>li>a:hover {
   padding-left: 20px;
 }
 
-.skills-container div {
-  width: 24%;
-  vertical-align: middle;
-  margin: .5% .5% 20% .5%;
-  display: inline-block;
-  cursor: pointer;
+.skillschart-container {
+  width: 100%;
 }
 
-.skills-container div>div {
-  width: 90%;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.skills-container i {
-  color: #414F5E;
-  transition: all ease 1s;
-}
-
-.skills-container i:hover {
-  color: #56A7F5;
-}
-
-.skills-container h3 {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #414F5E;
-  font-size: 1.3em;
-  margin: 1em 1em;
-  padding-bottom: 1em;
-  border-bottom: 3px solid #56A7F5;
-}
-
-.skills-container p {
-  margin: 20% 10% 20% 10%;
-  font-family: 'Source Sans Pro', sans-serif;
-}
 
 /* Project section styling */
 .project-container {

@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { PieChart } from 'react-chartkick';
+import SkillsChart from './SkillsChart'
 
 class Skills extends Component {
 
   render() {
     return (
-
       <div className="skills-container">
         <h2>Skills</h2>
-        <PieChart
-          data={ this.props.skills }
-          colors={ this.props.colors }
-          donut={ true } />
+        <SkillsChart
+          skills={ this.props.skills }
+          options={ this.props.options } />
       </div>
     )
   }
@@ -20,7 +19,7 @@ class Skills extends Component {
 
 Skills.propTypes = {
   skills: PropTypes.array.isRequired,
-  colors: PropTypes.array
+  options: PropTypes.object
 }
 
 module.exports = Skills;

@@ -9,17 +9,23 @@ class App extends Component {
 
   state = {
     skills: [
-      ['Product Management', 25],
-      ['Data Analysis', 35],
-      ['Coding', 20],
-      ['Customer Success', 20]
+      ["Product Management", 25],
+      ["Data Analysis", 35],
+      ["Coding", 20],
+      ["Customer Success", 20]
     ],
-    colors: [
-      "#153F9E", // Dark Blue
-      "#1C76C7", // Medium Blue
-      "#31C76C", // Baby Blue
-      "#2193BB"  // Teal
-    ]
+    options: {
+      title: "Breakdown of skills",
+      colors: [
+        "#153F9E", // Dark Blue
+        "#1C76C7", // Medium Blue
+        "#31C76C", // Baby Blue
+        "#2193BB"  // Teal
+      ],
+      donut: true,
+      legend: true,
+      is3D: true
+    }
   }
 
   render() {
@@ -30,7 +36,7 @@ class App extends Component {
         <ProjectsAll />
         <Skills
           skills={ this.state.skills }
-          colors={ this.state.colors } />
+          options={ this.state.options } />
         <Footer />
       </div>
     )
