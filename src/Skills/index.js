@@ -9,14 +9,18 @@ class Skills extends Component {
 
       <div className="skills-container">
         <h2>Skills</h2>
-        <PieChart data={ this.props.skills } />
+        <PieChart
+          data={ this.props.skills }
+          colors={ this.props.colors }
+          donut={ true } />
       </div>
     )
   }
 }
 
 Skills.propTypes = {
-  skills: PropTypes.array.isRequired
+  skills: PropTypes.array.isRequired,
+  colors: PropTypes.array
 }
 
 module.exports = Skills;

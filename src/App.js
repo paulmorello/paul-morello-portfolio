@@ -13,6 +13,12 @@ class App extends Component {
       ['Data Analysis', 35],
       ['Coding', 20],
       ['Customer Success', 20]
+    ],
+    colors: [
+      "#153F9E", // Dark Blue
+      "#1C76C7", // Medium Blue
+      "#31C76C", // Baby Blue
+      "#2193BB"  // Teal
     ]
   }
 
@@ -23,7 +29,8 @@ class App extends Component {
         <AboutMe />
         <ProjectsAll />
         <Skills
-          skills={ this.state.skills } />
+          skills={ this.state.skills }
+          colors={ this.state.colors } />
         <Footer />
       </div>
     )
