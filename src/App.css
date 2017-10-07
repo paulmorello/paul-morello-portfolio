@@ -21,7 +21,7 @@ nav {
 
 nav h1 {
   width: 25%;
-  padding: .5em .5em .5em 1em;
+  padding: .5em .5em .5em 1.5em;
   vertical-align: middle;
   font-size: 2.5em;
   font-family: 'Megrim', sans-serif;
@@ -141,7 +141,7 @@ nav ul>li>a:hover {
 /* Skills section styling */
 .skills-container {
   width: 90%;
-  margin: 5% auto;
+  margin: 2.5% auto;
 }
 
 .skills-container h2 {
@@ -156,7 +156,8 @@ nav ul>li>a:hover {
 }
 
 .skillschart-container {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 

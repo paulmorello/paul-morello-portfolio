@@ -33,10 +33,10 @@ class App extends Component {
       <div className="main-container">
         <NavBar />
         <AboutMe />
-        <ProjectsAll />
         <Skills
           skills={ this.state.skills }
           options={ this.state.options } />
+        <ProjectsAll />
         <Footer />
       </div>
     )
