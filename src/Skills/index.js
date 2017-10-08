@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { PieChart } from 'react-chartkick';
 import SkillsChart from './SkillsChart';
 
 class Skills extends Component {
