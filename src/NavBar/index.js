@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class NavLinks extends Component {
+class NavBar extends Component {
   constructor() {
     super();
       this.state = { sectionIs: '' }
@@ -61,10 +61,10 @@ class NavLinks extends Component {
   }
 }
 
-NavLinks.defaultProps = {
+NavBar.defaultProps = {
   about: "About Me",
   projects: "Projects",
   hireme: "Hire Me"
 }
 
-module.exports = NavLinks;
+export default NavBar;

@@ -62,7 +62,7 @@ nav ul>li>a:hover {
 
 /* Main Heading styling */
 .hero-header-container {
-  height: 70%;
+  height: 60%;
 }
 
 .main-heading {
@@ -81,6 +81,23 @@ nav ul>li>a:hover {
   line-height: 5em;
   padding-left: 1.9em;
   color: white;
+}
+
+.header-resume-container {
+  width: 100%;
+  height: 10%;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.header-resume-container input {
+  width: 30%;
+  display: inline-block;
+}
+
+.header-resume-container button {
+  width: 10%;
+  display: inline-block;
 }
 
 .header-arrow-container {

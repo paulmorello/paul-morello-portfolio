@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavLinks from './NavLinks'
+import NavBar from './NavBar'
 
 class Footer extends Component {
 
@@ -7,7 +7,7 @@ class Footer extends Component {
     return (
       <div id="footer" className="footer-container">
         <div className="footer-links-container">
-          <NavLinks />
+          <NavBar />
         </div>
         <div className="footer-content-container">
           <h2>Contact Me</h2>

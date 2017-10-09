@@ -20,4 +20,4 @@ Skills.propTypes = {
   options: PropTypes.object
 }
 
-module.exports = Skills;
+export default Skills;

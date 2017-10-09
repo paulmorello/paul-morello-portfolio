@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-import NavBar from './NavBar'
-import AboutMe from './AboutMe'
-import Skills from './Skills'
-import ProjectsAll from './Projects/ProjectsAll'
-import Footer from './Footer'
+import React, { Component } from 'react';
+import LandingPage from './LandingPage';
+import AboutMe from './AboutMe';
+import Skills from './Skills';
+import ProjectsAll from './Projects/ProjectsAll';
+import Footer from './Footer';
 
 class App extends Component {
 
@@ -31,7 +31,7 @@ class App extends Component {
   render() {
     return (
       <div className="main-container">
-        <NavBar />
+        <LandingPage />
         <AboutMe />
         <Skills
           skills={ this.state.skills }
