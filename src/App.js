@@ -29,26 +29,27 @@ class App extends Component {
   }
 
   validateEmailAddress = email => {
+
     let regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
+    console.log('clicked');
     if (regex.test(email)) {
-
       // identify requestor by email
       woopra.identify({
         email: email
       })
-
       // send event to woopra to subscribe user to Mailchimp list
       woopra.track('resume_requested', {
         email: email
       });
+      console.log('email passed');
     }
   }
 
   render() {
     return (
       <div className="main-container">
-        <LandingPage />
+        <LandingPage
+          validateEmailAddress={ this.validateEmailAddress } />
         <AboutMe />
         <Skills
           skills={ this.state.skills }

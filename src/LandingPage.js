@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import HeroHeader from './HeroHeader';
 import ArrowDown from './ArrowDown';
 import NavBar from './NavBar';
@@ -14,11 +15,16 @@ class LandingPage extends Component {
           <NavBar />
         </nav>
         <HeroHeader />
-        <GetResume />
+        <GetResume
+          validateEmailAddress={ this.props.validateEmailAddress } />
         <ArrowDown />
       </div>
     )
   }
+}
+
+LandingPage.propTypes = {
+  validateEmailAddress: PropTypes.func
 }
 
 export default LandingPage;
