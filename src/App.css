@@ -91,13 +91,24 @@ nav ul>li>a:hover {
 }
 
 .header-resume-container input {
-  width: 30%;
+  width: 25%;
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: none;
   display: inline-block;
+  font-size: .8em;
 }
 
 .header-resume-container button {
   width: 10%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
   display: inline-block;
+  background-color: #56A7F5;
+  color: white;
+  font-size: .8em;
 }
 
 .header-arrow-container {
