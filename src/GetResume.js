@@ -10,7 +10,6 @@ class GetResume extends Component {
   // }
 
   render() {
-
     return (
       <div className="header-resume-container">
         <input id="resume-input" type="email" placeholder="Enter Email To Get My Resume" />
