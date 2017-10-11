@@ -109,6 +109,7 @@ nav ul>li>a:hover {
   background-color: #56A7F5;
   color: white;
   font-size: .8em;
+  cursor: pointer;
 }
 
 .header-arrow-container {
