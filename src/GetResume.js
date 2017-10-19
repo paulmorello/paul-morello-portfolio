@@ -8,7 +8,7 @@ class GetResume extends Component {
     return (
       <div className="header-resume-container">
         <input id="resume-input" type="email" placeholder="Enter Email To Get My Resume" />
-        <button onClick={ this.props.validateEmailAddress(email) }>Get Resume</button>
+        <button onClick={ this.props.validateEmailAddress() }>Get Resume</button>
       </div>
     )
   }
