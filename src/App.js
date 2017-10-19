@@ -31,7 +31,6 @@ class App extends Component {
   getEmailAddress = () => {
     let email = document.getElementById("resume-input");
     if (email) {
-      console.log(email.value);
       return email.value;
     } else {
       email = "This is not a valid email address";
@@ -42,10 +41,9 @@ class App extends Component {
   validateEmailAddress = () => {
 
     let email = this.getEmailAddress();
-    console.log(email);
 
     let regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    console.log('clicked');
+
     if (regex.test(email)) {
       // identify requestor by email
       woopra.identify({
@@ -55,7 +53,6 @@ class App extends Component {
       woopra.track('resume_requested', {
         email: email
       });
-      console.log('email passed');
     }
   }
 
