@@ -25,4 +25,4 @@ class ProjectTwo extends Component {
   }
 }
 
-module.exports = ProjectTwo;
+export default ProjectTwo;

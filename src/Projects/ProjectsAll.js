@@ -20,4 +20,4 @@ class ProjectsAll extends Component {
   }
 }
 
-module.exports = ProjectsAll;
+export default ProjectsAll;

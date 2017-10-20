@@ -25,4 +25,4 @@ class ProjectThree extends Component {
   }
 }
 
-module.exports = ProjectThree;
+export default ProjectThree;

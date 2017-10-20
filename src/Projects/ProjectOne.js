@@ -25,4 +25,4 @@ class ProjectOne extends Component {
   }
 }
 
-module.exports = ProjectOne;
+export default ProjectOne;

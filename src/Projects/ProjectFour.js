@@ -24,4 +24,4 @@ class ProjectFour extends Component {
   }
 }
 
-module.exports = ProjectFour;
+export default ProjectFour;
