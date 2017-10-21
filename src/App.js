@@ -54,9 +54,16 @@ class App extends Component {
         email: email
       });
 
-      input.value = '';
+      // show success message
+      input.style.background = 'lightgreen';
+      input.style.color = 'green'
+      input.value = 'Success. You will receive a personal email';
+    } else {
+      // show fail message
+      input.style.background = 'mistyrose';
+      input.style.color = 'red';
+      input.value = 'Please enter a valid email address';
     }
-    input.value = '';
   }
 
   render() {
