@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 
 class NavBar extends Component {
@@ -7,12 +8,6 @@ class NavBar extends Component {
       this.state = { sectionIs: '' }
 
       this.trackClick = this.trackClick.bind(this);
-  }
-
-  propTypes: {
-    about: React.PropTypes.string,
-    projects: React.PropTypes.string,
-    hireme: React.PropTypes.string
   }
 
   trackClick() {
@@ -59,6 +54,12 @@ class NavBar extends Component {
       </ul>
     )
   }
+}
+
+NavBar.propTypes = {
+  about: React.PropTypes.string,
+  projects: React.PropTypes.string,
+  hireme: React.PropTypes.string
 }
 
 NavBar.defaultProps = {

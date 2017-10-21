@@ -22,4 +22,4 @@ class ArrowDown extends Component {
   }
 }
 
-module.exports = ArrowDown;
+export default ArrowDown;

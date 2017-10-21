@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
 class Slogan extends Component {
-  propTypes: {
-    skills: React.PropTypes.string
-  }
 
   render() {
     return (
@@ -12,8 +9,12 @@ class Slogan extends Component {
   }
 }
 
+Slogan.propTypes = {
+  skills: React.PropTypes.string
+}
+
 Slogan.defaultProps = {
   skills: "Product Manager. Data Analytics. Ruby. JavaScript. React."
 }
 
-module.exports = Slogan;
+export default Slogan;

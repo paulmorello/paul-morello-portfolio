@@ -27,4 +27,4 @@ class AboutMe extends Component {
   }
 }
 
-module.exports = AboutMe;
+export default AboutMe;

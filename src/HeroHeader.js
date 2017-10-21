@@ -15,4 +15,4 @@ class HeroHeader extends Component {
   }
 }
 
-module.exports = HeroHeader;
+export default HeroHeader;

@@ -24,4 +24,4 @@ class Footer extends Component {
   }
 }
 
-module.exports = Footer;
+export default Footer;

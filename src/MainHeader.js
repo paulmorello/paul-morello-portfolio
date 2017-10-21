@@ -9,4 +9,4 @@ class MainHeader extends Component {
   }
 }
 
-module.exports = MainHeader;
+export default MainHeader;
