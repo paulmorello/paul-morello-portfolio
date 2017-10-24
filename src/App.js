@@ -56,7 +56,7 @@ class App extends Component {
 
       // show success message
       input.style.background = 'lightgreen';
-      input.style.color = 'green'
+      input.style.color = 'green';
       input.value = 'Success. You will receive a personal email';
     } else {
       // show fail message
