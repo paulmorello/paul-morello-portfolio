@@ -54,15 +54,26 @@ class App extends Component {
         email: email
       });
 
+
       // show success message
       input.style.background = 'lightgreen';
       input.style.color = 'green';
       input.value = 'Success. You will receive a personal email';
+
+      setTimeout( () => {
+        input.value = 'Thank you for requesting my resume';
+      }, 1000);
     } else {
       // show fail message
       input.style.background = 'mistyrose';
       input.style.color = 'red';
       input.value = 'Please enter a valid email address';
+
+      setTimeout( () => {
+        input.style.background = 'white';
+        input.style.color = 'lightgrey';
+        input.value = 'Enter your email address';
+      }, 3000);
     }
   }
 
